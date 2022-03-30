@@ -1,0 +1,10 @@
+Boostrap
+    Grillas --> Limite de 12 columnas
+                col-3 --> tamaño de las columnas (1,2,3,4,5,etc)  
+                    si tenemos una col-3 y una col-9, 3+9=12, ya usamos todo el espacio de columnas(12)
+                bg-WARNING --> background color (warning,primary,success,danger,etc)
+                Podemos agregar columnas dentro de una columna, y subdividirla
+    Grilla responsiva--> ver tabla de tamaños en boostrap.com
+                col-lg-4 (tamaño de la columna) , col-md-6 (tamaño de la columna cuando el tamaño sea menor al large[lg])
+                ejemplo: <div class="col-lg-4       col-md-6       col-sm-12    bg-danger">
+                                      tamaño,   tamaño mediano, tamaño pequeño
